@@ -33,9 +33,9 @@ const Contact = () => {
             <Image src={contact} width={100} height={100} className='w-32 h-32' />
           </div>
           <div>
-            <p className='max-w-xl md:max-w-lg font-extralight'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, porro vitae doloremque debitis, ullam quibusdam exercitationem incidunt id accusamus autem dolor?</p>
+            <p className='max-w-xs md:max-w-lg font-extralight'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, porro vitae doloremque debitis, ullam quibusdam exercitationem incidunt </p>
           </div>
-          <div className='flex w-full items-center justify-evenly text-3xl hover:'>
+          <div className='flex w-full items-center justify-evenly text-3xl'>
             {
               SOCIAL.map(({ id, link, icon }) => (
                 <Link href={link} target='_blank' rel='noopener noreferrer' className='duration-200 ease-in-out hover:text-rose-600'>
@@ -48,8 +48,8 @@ const Contact = () => {
 
           {/* BOTTOM FORM */}
           <div className='p-8 text-left w-full flex items-center justify-center'>
-            <form action="https://getform.io/f/7056ac53-43d4-4de6-ade6-6da7e4cf2261" method='POST' className='md:w-full'>
-              <div className='gap-4 w-full'>
+            <form action="https://getform.io/f/7056ac53-43d4-4de6-ade6-6da7e4cf2261" method='POST' className='w-1/2 lg:w-full'>
+              <div className='gap-4'>
                 <div className='flex flex-col'>
                   <label htmlFor="" className='capitalize text-sm py-2 font-extralight'>name</label>
                   <input type="text" name='name' className='border-2 rounded-lg p-3 flex focus:outline-none border-gray-400 dark:bg-gray-900 dark:text-white' />
