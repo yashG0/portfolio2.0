@@ -31,11 +31,11 @@ export default function Home() {
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         <main className='bg-white dark:bg-gray-900 text-gray-900 dark:text-indigo-200'>
           <Hero />
-          <Services/>
-          <Portfolio/>
-          <Testimonials/>
-          <Contact/>
-          <Footer/>
+          <Services />
+          <Portfolio />
+          <Testimonials />
+          <Contact />
+          <Footer />
         </main>
       </div>
     </>

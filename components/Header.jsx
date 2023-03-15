@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { MdNightsStay, MdWbSunny } from 'react-icons/md'
 
@@ -5,10 +6,12 @@ import { MdNightsStay, MdWbSunny } from 'react-icons/md'
 const Header = ({ darkMode, setDarkMode }) => {
     return (
         <>
-            <header className='bg-white dark:bg-gray-900 text-gray-900 dark:text-teal-200'>
+            <header className='bg-white dark:bg-gray-900 text-gray-600 dark:text-teal-100'>
                 <nav className='flex justify-between items-center p-5'>
 
-                    <h1 className='uppercase text-lg'>YASHTECH</h1>
+                    <Link href={'/'}>
+                        <h1 className='uppercase text-3xl underline-offset-4 underline hover:cursor-pointer'>YASHTECH</h1>
+                    </Link>
                     <div className='' onClick={() => setDarkMode(!darkMode)}>
                         {
                             darkMode ? <MdNightsStay className='text-2xl cursor-pointer' /> : <MdWbSunny className='text-2xl cursor-pointer' />
