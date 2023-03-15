@@ -6,7 +6,7 @@ import { MdNightsStay, MdWbSunny } from 'react-icons/md'
 const Header = ({ darkMode, setDarkMode }) => {
     return (
         <>
-            <header className='bg-white dark:bg-gray-900 text-gray-600 dark:text-teal-100'>
+            <header className='bg-white dark:bg-gray-900 text-gray-600 dark:text-teal-100 duration-200'>
                 <nav className='flex justify-between items-center p-5'>
 
                     <Link href={'/'}>
