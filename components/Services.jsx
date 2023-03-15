@@ -49,7 +49,7 @@ const Services = () => {
                 
                     {
                         myServices.map(({id,image,title})=>(
-                            <div key={id} className='flex flex-col items-center justify-center p-5 shadow-lg dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110'>
+                            <div key={id} className='flex flex-col items-center justify-center p-5 shadow-lg dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110 cursor-pointer hover:shadow-2xl hover:shadow-gray-300'>
                                 <Image src={image} width={100} height={100} className='w-36 h-36 md:w-44 md:h-44 object-contain'/>
                                 <h3 className='mt-5 text-base'>{title}</h3>
                             </div>

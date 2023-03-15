@@ -67,8 +67,8 @@ const Portfolio = () => {
                 <div className='grid gap-8 lg:gap-14 lg:grid-cols-2'>
                     {
                         projects.map(({ id, image, title, github, demo }) => (
-                            <div key={id} className='max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden'>
-                                <Image src={image} alt={title} className='w-2/3' />
+                            <div key={id} className='max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-gray-400 duration-200 cursor-pointer'>
+                                <Image src={image} alt={title} className='w-2/3 duration-200 hover:scale-125 hover:bg-contain overflow-hidden' />
                                 <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
                                     <h2 className=''>{title}</h2>
                                     <Link href={github} target='_blank' rel='noopener noreferrer' className='text-lg cursor-pointer duration-150 hover:scale-110 md:text-xl lg:text-2xl'>
