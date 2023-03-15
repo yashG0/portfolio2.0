@@ -10,7 +10,7 @@ const Header = ({ darkMode, setDarkMode }) => {
                 <nav className='flex justify-between items-center p-5'>
 
                     <Link href={'/'}>
-                        <h1 className='uppercase text-3xl underline-offset-4 underline hover:cursor-pointer'>YASHTECH</h1>
+                        <h1 className='uppercase text-3xl underline-offset-4 hover:underline hover:cursor-pointer hover:scale-105 duration-150'>YASHTECH</h1>
                     </Link>
                     <div className='' onClick={() => setDarkMode(!darkMode)}>
                         {
