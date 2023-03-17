@@ -64,10 +64,10 @@ const Portfolio = () => {
         <>
             <Section title={'Portfolio⚒️'} subTitle='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde doloribus molestiae ipsum at deserunt id, veritatis eligendi ab quibusdam nisi distinctio commodi recusandae! Fuga cupiditate quae ad tempora ratione dignissimos alias modi!'>
 
-                <div className='grid gap-8 lg:gap-14 lg:grid-cols-2'>
+                <div className='grid gap-8 lg:gap-14 lg:grid-cols-2 '>
                     {
                         projects.map(({ id, image, title, github, demo }) => (
-                            <div key={id} className='max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-gray-400 duration-200 cursor-pointer'>
+                            <div key={id} className='max-w-lg flex shadow-xl dark:shadow-gray-600 rounded-2xl overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-gray-500 duration-200 cursor-pointer'>
                                 <Image src={image} alt={title} className='w-2/3 duration-200 hover:scale-125 hover:bg-contain overflow-hidden' />
                                 <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
                                     <h2 className=''>{title}</h2>

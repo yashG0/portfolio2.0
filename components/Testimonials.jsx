@@ -37,7 +37,7 @@ const Testimonials = () => {
         <div className='max-w-xl flex flex-col gap-8'>
           {
             TESTIMONIAL.map(({ id, image, name, commentL }) => (
-              <div className='flex p-4 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300'>
+              <div className='flex p-4 justify-center items-center rounded-2xl shadow-xl dark:shadow-lg  dark:shadow-gray-400 hover:scale-105 duration-200 cursor-pointer hover:translate-x-5 hover:dark:bg-gray-800'>
                 <div className='w-1/3'>
                   <Image src={image} alt='avatar' className='w-20 h-20 object-cover object-top pt-2'/>
                 </div>

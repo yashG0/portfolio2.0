@@ -54,7 +54,7 @@ const Hero = () => {
                 <div className='flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/3'>
                     {
                         social.map(({ id, link, icon }) => (
-                            <Link href={link} key={id} className='cursor-pointer duration-300 hover:text-rose-600' target='/' rel='noopener noreferrer'>
+                            <Link href={link} key={id} className='cursor-pointer  hover:text-rose-500 hover:scale-125 duration-200' target='/' rel='noopener noreferrer'>
                                 {icon}
                             </Link>
                         ))
@@ -63,7 +63,7 @@ const Hero = () => {
 
                 {/* AVATAR AND RESUME */}
                 <div>
-                    <Image src={avatar} alt="avatar" className='w-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 rounded-xl pt-5' />
+                    <Image src={avatar} alt="avatar" className='w-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 rounded-xl pt-5 overflow-hidden hover:scale-105 duration-200 cursor-pointer' />
                     {/* <img src={avatar} alt="avatar" className='w-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 rounded-xl pt-5' /> */}
 
                     {/* <a href="/myResume.pdf" download={true} className='duration-200 flex items-center justify-center mt-10 bg-gradient-to-r from-rose-600 to-teal-500 text-white py-2 rounded-lg hover:to-rose-600 hover:from-teal-500 '>
