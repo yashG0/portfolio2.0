@@ -69,7 +69,7 @@ const Hero = () => {
                     {/* <a href="/myResume.pdf" download={true} className='duration-200 flex items-center justify-center mt-10 bg-gradient-to-r from-rose-600 to-teal-500 text-white py-2 rounded-lg hover:to-rose-600 hover:from-teal-500 '>
                         Resume
                     </a> */}
-                    <Link href='/myResume.png' className='duration-200 flex items-center justify-center mt-10 bg-gradient-to-r from-rose-600 to-teal-500 text-white py-2 rounded-lg hover:to-rose-600 hover:from-teal-500' target={'_blank'}>
+                    <Link href='./myResume.pdf' className='duration-200 flex items-center justify-center mt-10 bg-gradient-to-r from-rose-600 to-teal-500 text-white py-2 rounded-lg hover:to-rose-600 hover:from-teal-500' target={'_blank'}>
                         Resume
                     </Link>
 
