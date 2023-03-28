@@ -42,7 +42,7 @@ const Services = () => {
 
     return (
         <>
-            <PageSection title={'Services🛠️'} subTitle={'The Best Services, I have made For My Clients With Best Projects As a Preview! That Will Blow Your Mind.'}>
+            <PageSection title={'Services🛠️'} subTitle={'The Best Services, I have made For My Clients With Best Projects As a Preview! That Will Blow Your Mind'}>
 
                 <div className='grid gap-10 lg:grid-cols-2'>
 
