@@ -9,7 +9,6 @@ import avatar from '../assets/avatar.png'
 
 const Hero = () => {
 
-
     const social = [
         {
             id: 1,
@@ -47,7 +46,10 @@ const Hero = () => {
                 <h2 className='text-5xl text-rose-600  uppercase font-bold'>Yash Gaurkar</h2>
                 <h3 className='py-3 text-2xl'>Web Developer</h3>
                 <p className='max-w-xl font-light text-gray-500'>Hello <span className='animate-pulse text-4xl'>👋</span>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Sir,  My Self Yash A Full Stack Web Developer <br />
+                    I have made a lot of Projects In Web FrameWork! <br />
+                    If You Find Any Interesting Skill in me? <br /> 
+                    You can Hire Me. <span className='animate-pulse text-2xl'>👇</span>
                 </p>
 
                 {/* SOCIAL ICONS */}
