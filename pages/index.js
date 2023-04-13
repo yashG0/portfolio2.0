@@ -31,7 +31,7 @@ export default function Home() {
       <div className={darkMode && 'dark'}>
         <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
         
-        <main className='bg-white dark:bg-gray-900 text-gray-900 dark:text-indigo-200 duration-200 w-fit md:w-full'>
+        <main className='bg-white dark:bg-gray-900 text-gray-900 dark:text-indigo-200 duration-200'>
           <Hero />
           <Services />
           <Portfolio />
