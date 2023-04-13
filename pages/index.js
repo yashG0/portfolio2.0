@@ -1,15 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import Header from '@/components/Header'
-import Hero from '@/components/Hero'
-import { useState } from 'react'
-import Services from '@/components/Services'
-import Portfolio from '@/components/Portfolio'
-import Testimonials from '@/components/Testimonials'
-import Contact from '@/components/Contact'
-import Footer from '@/components/Footer'
+import Head from 'next/head';
+import Image from 'next/image';
+import { Inter } from 'next/font/google';
+import styles from '@/styles/Home.module.css';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import { useState } from 'react';
+import Services from '@/components/Services';
+import Portfolio from '@/components/Portfolio';
+import Testimonials from '@/components/Testimonials';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 
 
@@ -30,7 +30,8 @@ export default function Home() {
 
       <div className={darkMode && 'dark'}>
         <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
-        <main className='bg-white dark:bg-gray-900 text-gray-900 dark:text-indigo-200 duration-200'>
+        
+        <main className='bg-white dark:bg-gray-900 text-gray-900 dark:text-indigo-200 duration-200 w-full'>
           <Hero />
           <Services />
           <Portfolio />

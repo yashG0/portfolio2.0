@@ -13,9 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         f1color: 'Orbitron'
-
       }
-      
     },
   },
   plugins: [],
